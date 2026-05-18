@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Practical Test — [Replace with your question title]</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!--
     ============================================================
     SUZA Web Technologies — Practical Test
-    Student Name      : [WRITE YOUR FULL NAME]
-    Registration No.  : [WRITE YOUR REG NUMBER]
-    Question Number   : Q[XXX]
-    Question Title    : [PASTE YOUR ASSIGNED QUESTION TITLE]
+    Student Name      : [Munauwar Abdallah Mbarouk]
+    Registration No.  : 24BIT042]
+    Question Number   : Q[50]
+    Question Title    : [feedback form]
 
     YOUR TASK (paste from QUESTIONS.docx):
     [PASTE THE FULL TASK DESCRIPTION FROM THE QUESTIONS DOCUMENT]
@@ -40,39 +42,158 @@
   </header>
 
   <main>
-    <!-- ============================================================
-         REPLACE EVERYTHING INSIDE <main> WITH YOUR SOLUTION
-         ============================================================ -->
 
-    <section class="solution">
-      <h2>Your Solution Goes Here</h2>
-      <p>
-        Delete this placeholder and build the component described in your
-        assigned question. Remember: at least <strong>2 images</strong> and
-        <strong>2 links</strong>.
-      </p>
+    <header>
+      <div class="container">
+        <h1>User Feedback Form</h1>
 
-      <img src="assets/images/banner.svg" alt="Sample banner — replace with your own content" />
+        <nav>
+          <ul>
+            <li><a href="#form-section">Feedback Form</a></li>
 
-      <p>
-        Helpful reference:
-        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
-          MDN Web Docs
-        </a>
-        ·
-        <a href="https://massoudhamad.github.io/web-technologies/index.html" target="_blank" rel="noopener noreferrer">
-          Course site
-        </a>
-      </p>
-    </section>
+            <li>
+              <a href="https://suza.ac.tz/" target="_blank" rel="noopener noreferrer">
+                State University Docs
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+    <main class="container">
+
+
+
+      <section class="intro">
+
+        <article class="card">
+
+          <img src="pict/pct1.jfif" alt="Illustration showing customer feedback and reviews">
+
+          <h2>We Value Your Feedback</h2>
+
+          <p>
+            Help us improve our services by sharing your
+            experience, ideas, and suggestions.
+          </p>
+
+          <a href=""></a>
+          Learn HTML & CSS
+          </a>
+
+        </article>
+
+        <article class="card">
+
+          <img src="pict/pct2.webp" alt="Customer support team helping">
+
+          <h2>Customer Support</h2>
+
+          <p>
+            Our support team works hard to improve user
+            experience and solve reported issues quickly.
+          </p>
+
+
+
+        </article>
+
+      </section>
+
+
+
+      <section id="form-section" class="form-section">
+
+        <h2>Send Us Feedback</h2>
+
+        <form action="#" method="post">
+
+
+
+          <div class="form-group">
+            <label for="name">Name (Optional)</label>
+
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="email">Email (Optional)</label>
+
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          </div>
+
+
+
+          <div class="form-group">
+
+            <p>Feedback Type</p>
+
+            <label>
+              <input type="radio" name="feedback-type" value="bug">
+              Bug
+            </label>
+
+            <label>
+              <input type="radio" name="feedback-type" value="suggestion">
+              Suggestion
+            </label>
+
+            <label>
+              <input type="radio" name="feedback-type" value="praise">
+              Praise
+            </label>
+
+          </div>
+
+
+
+          <div class="form-group">
+
+            <label for="feedback">
+              Feedback Text (Required)
+            </label>
+
+            <textarea id="feedback" name="feedback" rows="6" required
+              placeholder="Write your feedback here..."></textarea>
+
+          </div>
+
+          <!-- RATING -->
+
+          <div class="form-group">
+
+            <label for="rating">
+              Rating (1 to 10)
+            </label>
+
+            <input type="range" id="rating" name="rating" min="1" max="10">
+
+          </div>
+
+
+
+          <button type="submit">
+            Submit Feedback
+          </button>
+
+        </form>
+
+      </section>
+
+    </main>
 
   </main>
 
   <footer class="page-footer">
     <p>
-      Submitted by: <strong>[Your Name]</strong> ·
-      Reg No: <strong>[Your Reg No]</strong> ·
-      Question: <strong>Q[XXX]</strong>
+      Submitted by: <strong>[Munauwar Abdallah Mbarouk]</strong> ·
+      Reg No: <strong>[24BIT041]</strong> ·
+      Question: <strong>Q[50</strong>
     </p>
     <p>
       <small>
@@ -83,4 +204,5 @@
   </footer>
 
 </body>
+
 </html>
